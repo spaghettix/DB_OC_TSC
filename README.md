@@ -1,7 +1,7 @@
 ## Dissimilarity-Based One-Class Time Series Classification
 
 
-This repository contains the code needed to replicate the results described in the paper [Dissimilarity-based representations for one-class classification on time series](https://www.sciencedirect.com/science/article/abs/pii/S0031320319304236).
+This repository contains the code needed to replicate results described in [Dissimilarity-based representations for one-class classification on time series](https://www.sciencedirect.com/science/article/abs/pii/S0031320319304236).
 
 
 
