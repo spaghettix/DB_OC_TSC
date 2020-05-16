@@ -107,6 +107,34 @@ class dissimilarity(object):
 
 
 
+    def MSM(self, a, b, c_penalty, **kwargs):
+
+        def C(a1, a2, b, c):
+            if a2 <= a1 <= b or a2 >= a1 >= b:
+                return c
+            else:
+                return c + min(abs(a1-a2), abs(a1-b))
+
+        length_a, length_b = a.size, b.size
+        D = np.zeros(shape=(length_a, length_b))
+
+        D[0,0] = np.abs(a[0] - b[0])
+
+        for i in range(1, length_a):
+            D[i,0] = D[i-1, 0] + C(a[i], a[i-1], b[0], c_penalty)
+
+        for i in range(1, length_b):
+            D[0,i] = D[0, i-1] + C(b[i], a[0], b[i-1], c_penalty)
+
+        for i in range(1, length_a):
+            for j in range(1, length_b):
+                D[i,j] = min(D[i-1,j-1] + np.abs(x[i] - b[j]),
+                             D[i-1,j] + C(a[i], a[i-1], b[j], c_penalty),
+                             D[i, j-1] + C(b[j], a[i], b[j-1], c_penalty))
+        return D[length_a-1, length_b-1]
+
+
+
     def sigmoid(self, a, b, **kwargs):
         # gamma = 1 / ts_length
         return sigmoid_kernel(a.reshape(1, -1), b.reshape(1, -1), gamma=None, coef0=0) * -1
