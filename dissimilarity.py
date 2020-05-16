@@ -117,15 +117,11 @@ class dissimilarity(object):
 
         length_a, length_b = a.size, b.size
         D = np.zeros(shape=(length_a, length_b))
-
         D[0,0] = np.abs(a[0] - b[0])
-
         for i in range(1, length_a):
             D[i,0] = D[i-1, 0] + C(a[i], a[i-1], b[0], c_penalty)
-
         for i in range(1, length_b):
             D[0,i] = D[0, i-1] + C(b[i], a[0], b[i-1], c_penalty)
-
         for i in range(1, length_a):
             for j in range(1, length_b):
                 D[i,j] = min(D[i-1,j-1] + np.abs(x[i] - b[j]),
