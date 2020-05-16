@@ -3,7 +3,7 @@
 
 __author__ = 'Stefano Mauceri'
 
-__email__ = 'stefano.mauceri@ucdconnect.ie'
+__email__ = 'mauceri.stefano@gmail.com'
 
 
 
