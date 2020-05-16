@@ -10,4 +10,4 @@ This repository contains the code needed to replicate the results described in t
 
 **References:**
 
-<a id="1">[1]</a> Mauceri, S., Sweeney, J. and McDermott, J., 2020. Dissimilarity-based representations for one-class classification on time series. Pattern Recognition, 100, p.107122.
+<a id="1">[1]</a> Mauceri, Stefano, James Sweeney, and James McDermott. "Dissimilarity-based representations for one-class classification on time series." Pattern Recognition 100 (2020): 107122.
