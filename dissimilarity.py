@@ -84,7 +84,17 @@ class dissimilarity(object):
 
     def EDR(self, a, b, eps, **kwargs):
         # Edit Distance on Real Sequences
-        return (np.abs(a-b) > eps).sum()
+        length_a, length_b = a.size, b.size
+        C = np.full(shape=(length_a + 1, length_b + 1), fill_value=np.inf)
+        C[:, 0] = np.arange(length_a + 1)
+        C[0, :] = np.arange(length_b + 1)
+        for i in range(1, length_a + 1):
+            for j in range(1, length_b + 1):
+                if np.abs(a[i-1] - b[j-1]) < eps:
+                    C[i, j] = min(C[i, j - 1] + 1, C[i - 1, j] + 1, C[i - 1, j - 1] + 0)
+                else:
+                    C[i, j] = min(C[i, j - 1] + 1, C[i - 1, j] + 1, C[i - 1, j - 1] + 1)
+        return C[length_a, length_b]
 
 
 
