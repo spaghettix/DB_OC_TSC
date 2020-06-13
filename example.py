@@ -33,12 +33,12 @@ from sklearn.neighbors import NearestNeighbors
 
 dataset_name = 'Plane'
 
-path = f'{os.path.sep}'.join([os.getcwd(), 'data', dataset_name])
+path = os.path.join(os.getcwd(), 'data', dataset_name)
 
-X_train = np.load(f'{os.path.sep}'.join([path, f'{dataset_name}_X_TRAIN.npy']))
-Y_train = np.load(f'{os.path.sep}'.join([path, f'{dataset_name}_Y_TRAIN.npy']))
-X_test = np.load(f'{os.path.sep}'.join([path, f'{dataset_name}_X_TEST.npy']))
-Y_test = np.load(f'{os.path.sep}'.join([path, f'{dataset_name}_Y_TEST.npy']))
+X_train = np.load(os.path.join(path, f'{dataset_name}_X_TRAIN.npy'))
+Y_train = np.load(os.path.join(path, f'{dataset_name}_Y_TRAIN.npy'))
+X_test = np.load(os.path.join(path, f'{dataset_name}_X_TEST.npy'))
+Y_test = np.load(os.path.join(path, f'{dataset_name}_Y_TEST.npy'))
 
 
 
@@ -101,8 +101,8 @@ Classifier = NearestNeighbors(n_neighbors=1)
 Classifier.fit(DBR_X_train)
 
 Test_scores = Classifier.kneighbors(DBR_X_test)[0] * -1 
-# Test scores are multiplied by -1 because the ROC curve expects that more 
-# is better while in terms of dissimilarities less is better.
+# Test scores are multiplied by -1 because the ROC curve expects that 
+# more is better while in terms of dissimilarities less is better.
 
 fpr, tpr, _ = roc_curve(Y_test, Test_scores, pos_label=1)
 AUROC = auc(fpr, tpr) * 100
@@ -110,3 +110,7 @@ AUROC = auc(fpr, tpr) * 100
 print('AUROC:', round(AUROC, 1))
 
 
+
+# =============================================================================
+# THE END
+# =============================================================================
