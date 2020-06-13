@@ -28,6 +28,14 @@ from sklearn.metrics.pairwise import rbf_kernel, sigmoid_kernel
 
 
 
+def C(a1, a2, b, c):
+    if a2 <= a1 <= b or a2 >= a1 >= b:
+        return c
+    else:
+        return c + min(abs(a1-a2), abs(a1-b))
+
+
+
 @numba.njit
 def hist1d(x, binx):
     return np.histogram(x, binx)[0]
@@ -44,6 +52,7 @@ class dissimilarity(object):
 
 
     def autocorrelation(self, a, b, **kwargs):
+        # This fails if a time series is a constant.
         lags = int(a.shape[0]) - 1
         coeff = np.geomspace(1, 0.001, lags)
         try:
@@ -118,13 +127,6 @@ class dissimilarity(object):
 
 
     def MSM(self, a, b, c_penalty, **kwargs):
-
-        def C(a1, a2, b, c):
-            if a2 <= a1 <= b or a2 >= a1 >= b:
-                return c
-            else:
-                return c + min(abs(a1-a2), abs(a1-b))
-
         length_a, length_b = a.size, b.size
         D = np.zeros(shape=(length_a, length_b))
         D[0,0] = np.abs(a[0] - b[0])
@@ -153,7 +155,7 @@ class dissimilarity(object):
 
 
 # =============================================================================
-# END
+# THE END
 # =============================================================================
 
 
