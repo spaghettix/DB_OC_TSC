@@ -1,0 +1,1033 @@
+Dataset,Dissimilarity,AUROC
+AccelerometerData,Autocorrelation,66
+AccelerometerData,Chebyshev,61.72222222
+AccelerometerData,Cosine,85.77777778
+AccelerometerData,DTW,77.88888889
+AccelerometerData,EDR,78.16666667
+AccelerometerData,Euclidean,84
+AccelerometerData,Gaussian Kernel,83.72222222
+AccelerometerData,Kullback Leibler,70.83333333
+AccelerometerData,Manhattan,83.33333333
+AccelerometerData,MSM,78.88888889
+AccelerometerData,Sigmoid Kernel,86.16666667
+AccelerometerData,Wasserstein,70.44444444
+Adiac,Autocorrelation,89.43413314
+Adiac,Chebyshev,90.64322985
+Adiac,Cosine,87.23306055
+Adiac,DTW,91.1547513
+Adiac,EDR,80.04673535
+Adiac,Euclidean,88.88336416
+Adiac,Gaussian Kernel,87.47699618
+Adiac,Kullback Leibler,88.33467849
+Adiac,Manhattan,88.21130475
+Adiac,MSM,92.23373876
+Adiac,Sigmoid Kernel,86.98873874
+Adiac,Wasserstein,94.59280887
+ArrowHead,Autocorrelation,69.14421179
+ArrowHead,Chebyshev,76.75249652
+ArrowHead,Cosine,73.2748483
+ArrowHead,DTW,70.09209077
+ArrowHead,EDR,76.12845938
+ArrowHead,Euclidean,73.70967573
+ArrowHead,Gaussian Kernel,72.18471649
+ArrowHead,Kullback Leibler,73.56846888
+ArrowHead,Manhattan,74.06142274
+ArrowHead,MSM,79.09780031
+ArrowHead,Sigmoid Kernel,73.51900913
+ArrowHead,Wasserstein,72.05830274
+Beef,Autocorrelation,74.02777778
+Beef,Chebyshev,78.61111111
+Beef,Cosine,72.63888889
+Beef,DTW,76.66666667
+Beef,EDR,76.04166667
+Beef,Euclidean,76.11111111
+Beef,Gaussian Kernel,72.63888889
+Beef,Kullback Leibler,74.44444444
+Beef,Manhattan,76.52777778
+Beef,MSM,76.52777778
+Beef,Sigmoid Kernel,72.63888889
+Beef,Wasserstein,70.55555556
+BeetleFly,Autocorrelation,61.5
+BeetleFly,Chebyshev,70
+BeetleFly,Cosine,68.5
+BeetleFly,DTW,67
+BeetleFly,EDR,79.5
+BeetleFly,Euclidean,68.5
+BeetleFly,Gaussian Kernel,67.5
+BeetleFly,Kullback Leibler,51.5
+BeetleFly,Manhattan,71
+BeetleFly,MSM,71.5
+BeetleFly,Sigmoid Kernel,69.5
+BeetleFly,Wasserstein,65.5
+BirdChicken,Autocorrelation,65.5
+BirdChicken,Chebyshev,66
+BirdChicken,Cosine,55.5
+BirdChicken,DTW,66.5
+BirdChicken,EDR,72.5
+BirdChicken,Euclidean,54
+BirdChicken,Gaussian Kernel,54.5
+BirdChicken,Kullback Leibler,64
+BirdChicken,Manhattan,54.5
+BirdChicken,MSM,73.5
+BirdChicken,Sigmoid Kernel,57.5
+BirdChicken,Wasserstein,62.5
+Car,Autocorrelation,62.84150495
+Car,Chebyshev,70.86951331
+Car,Cosine,66.26245364
+Car,DTW,65.78785456
+Car,EDR,77.44084937
+Car,Euclidean,70.64352663
+Car,Gaussian Kernel,66.81641517
+Car,Kullback Leibler,65.10819538
+Car,Manhattan,70.20040461
+Car,MSM,80.68429575
+Car,Sigmoid Kernel,66.66200697
+Car,Wasserstein,67.32317388
+CBF,Autocorrelation,70.04867297
+CBF,Chebyshev,75.9182486
+CBF,Cosine,92.74926673
+CBF,DTW,98.39282771
+CBF,EDR,99.76903912
+CBF,Euclidean,93.78055535
+CBF,Gaussian Kernel,93.48089228
+CBF,Kullback Leibler,81.87132368
+CBF,Manhattan,95.78651603
+CBF,MSM,99.6123818
+CBF,Sigmoid Kernel,91.87684295
+CBF,Wasserstein,81.46978223
+ChlorineConcentration,Autocorrelation,51.17550211
+ChlorineConcentration,Chebyshev,58.58708222
+ChlorineConcentration,Cosine,50.91747677
+ChlorineConcentration,DTW,56.95707147
+ChlorineConcentration,EDR,56.34730796
+ChlorineConcentration,Euclidean,52.66978248
+ChlorineConcentration,Gaussian Kernel,50.91926667
+ChlorineConcentration,Kullback Leibler,54.51601559
+ChlorineConcentration,Manhattan,53.53063592
+ChlorineConcentration,MSM,55.63419258
+ChlorineConcentration,Sigmoid Kernel,50.96071214
+ChlorineConcentration,Wasserstein,54.87266565
+CinCECGTorso,Autocorrelation,74.37340462
+CinCECGTorso,Chebyshev,83.68797923
+CinCECGTorso,Cosine,88.522045
+CinCECGTorso,DTW,75.18195095
+CinCECGTorso,EDR,82.49522842
+CinCECGTorso,Euclidean,95.45550141
+CinCECGTorso,Gaussian Kernel,96.5471279
+CinCECGTorso,Kullback Leibler,62.24165056
+CinCECGTorso,Manhattan,94.67152805
+CinCECGTorso,MSM,81.80584875
+CinCECGTorso,Sigmoid Kernel,87.43310227
+CinCECGTorso,Wasserstein,76.53622462
+Coffee,Autocorrelation,85.64102564
+Coffee,Chebyshev,95.38461538
+Coffee,Cosine,92.30769231
+Coffee,DTW,92.05128205
+Coffee,EDR,90
+Coffee,Euclidean,94.61538462
+Coffee,Gaussian Kernel,92.30769231
+Coffee,Kullback Leibler,79.23076923
+Coffee,Manhattan,92.05128205
+Coffee,MSM,94.1025641
+Coffee,Sigmoid Kernel,92.30769231
+Coffee,Wasserstein,75.8974359
+Computers,Autocorrelation,55.3472
+Computers,Chebyshev,56.9312
+Computers,Cosine,51.3472
+Computers,DTW,57.6704
+Computers,EDR,53.1616
+Computers,Euclidean,51.6096
+Computers,Gaussian Kernel,50.8576
+Computers,Kullback Leibler,60.8992
+Computers,Manhattan,49.184
+Computers,MSM,54.9728
+Computers,Sigmoid Kernel,51.7952
+Computers,Wasserstein,59.3984
+CricketX,Autocorrelation,76.7206014
+CricketX,Chebyshev,70.63209158
+CricketX,Cosine,81.54168287
+CricketX,DTW,86.48720557
+CricketX,EDR,82.77838447
+CricketX,Euclidean,83.56536344
+CricketX,Gaussian Kernel,83.95167285
+CricketX,Kullback Leibler,75.44363628
+CricketX,Manhattan,83.23860767
+CricketX,MSM,89.72675742
+CricketX,Sigmoid Kernel,80.06355341
+CricketX,Wasserstein,83.37500243
+CricketY,Autocorrelation,80.02168767
+CricketY,Chebyshev,72.44663855
+CricketY,Cosine,84.45279033
+CricketY,DTW,90.35958871
+CricketY,EDR,86.03794644
+CricketY,Euclidean,85.9493672
+CricketY,Gaussian Kernel,85.83775854
+CricketY,Kullback Leibler,77.28919651
+CricketY,Manhattan,86.58627192
+CricketY,MSM,90.6078149
+CricketY,Sigmoid Kernel,83.7007461
+CricketY,Wasserstein,82.4624857
+CricketZ,Autocorrelation,79.35480815
+CricketZ,Chebyshev,71.98911566
+CricketZ,Cosine,79.89999578
+CricketZ,DTW,88.05306541
+CricketZ,EDR,83.1680037
+CricketZ,Euclidean,81.12081421
+CricketZ,Gaussian Kernel,81.33854413
+CricketZ,Kullback Leibler,76.93898821
+CricketZ,Manhattan,82.90629201
+CricketZ,MSM,90.06531273
+CricketZ,Sigmoid Kernel,78.84499559
+CricketZ,Wasserstein,83.73287659
+DiatomSizeReduction,Autocorrelation,94.73808062
+DiatomSizeReduction,Chebyshev,95.42436173
+DiatomSizeReduction,Cosine,95.04668619
+DiatomSizeReduction,DTW,94.89749248
+DiatomSizeReduction,EDR,93.79689905
+DiatomSizeReduction,Euclidean,95.16962878
+DiatomSizeReduction,Gaussian Kernel,95.05421329
+DiatomSizeReduction,Kullback Leibler,95.72623448
+DiatomSizeReduction,Manhattan,94.83624718
+DiatomSizeReduction,MSM,95.07072164
+DiatomSizeReduction,Sigmoid Kernel,95.03915909
+DiatomSizeReduction,Wasserstein,94.02787653
+DistalPhalanxOutlineAgeGroup,Autocorrelation,69.56306445
+DistalPhalanxOutlineAgeGroup,Chebyshev,63.74746219
+DistalPhalanxOutlineAgeGroup,Cosine,70.07173937
+DistalPhalanxOutlineAgeGroup,DTW,64.56211658
+DistalPhalanxOutlineAgeGroup,EDR,64.98731993
+DistalPhalanxOutlineAgeGroup,Euclidean,66.24890325
+DistalPhalanxOutlineAgeGroup,Gaussian Kernel,69.45787615
+DistalPhalanxOutlineAgeGroup,Kullback Leibler,77.96201246
+DistalPhalanxOutlineAgeGroup,Manhattan,66.25066607
+DistalPhalanxOutlineAgeGroup,MSM,62.64101923
+DistalPhalanxOutlineAgeGroup,Sigmoid Kernel,70.67881372
+DistalPhalanxOutlineAgeGroup,Wasserstein,67.97268438
+DistalPhalanxOutlineCorrect,Autocorrelation,56.41641912
+DistalPhalanxOutlineCorrect,Chebyshev,59.58412098
+DistalPhalanxOutlineCorrect,Cosine,62.29543613
+DistalPhalanxOutlineCorrect,DTW,59.6489333
+DistalPhalanxOutlineCorrect,EDR,59.67188766
+DistalPhalanxOutlineCorrect,Euclidean,62.73832028
+DistalPhalanxOutlineCorrect,Gaussian Kernel,62.3710505
+DistalPhalanxOutlineCorrect,Kullback Leibler,61.16392115
+DistalPhalanxOutlineCorrect,Manhattan,63.80772347
+DistalPhalanxOutlineCorrect,MSM,56.52984067
+DistalPhalanxOutlineCorrect,Sigmoid Kernel,62.45206589
+DistalPhalanxOutlineCorrect,Wasserstein,61.00729139
+DistalPhalanxTW,Autocorrelation,81.32772533
+DistalPhalanxTW,Chebyshev,77.39538843
+DistalPhalanxTW,Cosine,79.72204377
+DistalPhalanxTW,DTW,80.97961308
+DistalPhalanxTW,EDR,80.63523078
+DistalPhalanxTW,Euclidean,79.74176299
+DistalPhalanxTW,Gaussian Kernel,79.95067853
+DistalPhalanxTW,Kullback Leibler,80.82700589
+DistalPhalanxTW,Manhattan,79.78856522
+DistalPhalanxTW,MSM,80.0647017
+DistalPhalanxTW,Sigmoid Kernel,79.56683205
+DistalPhalanxTW,Wasserstein,80.20149203
+Earthquakes,Autocorrelation,50.05494505
+Earthquakes,Chebyshev,59.65659341
+Earthquakes,Cosine,50.97527473
+Earthquakes,DTW,59.27197802
+Earthquakes,EDR,59.84203297
+Earthquakes,Euclidean,50.08241758
+Earthquakes,Gaussian Kernel,49.6978022
+Earthquakes,Kullback Leibler,55.89285714
+Earthquakes,Manhattan,51.08516484
+Earthquakes,MSM,56.92307692
+Earthquakes,Sigmoid Kernel,51.11263736
+Earthquakes,Wasserstein,58.25549451
+ECG200,Autocorrelation,64.34461806
+ECG200,Chebyshev,82.13975694
+ECG200,Cosine,77.82118056
+ECG200,DTW,69.05381944
+ECG200,EDR,71.40842014
+ECG200,Euclidean,80.23003472
+ECG200,Gaussian Kernel,79.60069444
+ECG200,Kullback Leibler,60.46006944
+ECG200,Manhattan,79.47048611
+ECG200,MSM,72.52604167
+ECG200,Sigmoid Kernel,76.69270833
+ECG200,Wasserstein,62.76041667
+ECG5000,Autocorrelation,71.43789995
+ECG5000,Chebyshev,75.19924371
+ECG5000,Cosine,76.64531559
+ECG5000,DTW,77.70238907
+ECG5000,EDR,78.26103315
+ECG5000,Euclidean,76.96984005
+ECG5000,Gaussian Kernel,75.89167039
+ECG5000,Kullback Leibler,73.21154556
+ECG5000,Manhattan,78.89708641
+ECG5000,MSM,78.220559
+ECG5000,Sigmoid Kernel,76.56238914
+ECG5000,Wasserstein,76.44651359
+ECGFiveDays,Autocorrelation,95.66812717
+ECGFiveDays,Chebyshev,59.42538473
+ECGFiveDays,Cosine,66.67350154
+ECGFiveDays,DTW,70.81894412
+ECGFiveDays,EDR,71.31968876
+ECGFiveDays,Euclidean,74.58882821
+ECGFiveDays,Gaussian Kernel,71.17453757
+ECGFiveDays,Kullback Leibler,74.70160368
+ECGFiveDays,Manhattan,76.54594116
+ECGFiveDays,MSM,73.84040923
+ECGFiveDays,Sigmoid Kernel,65.82714597
+ECGFiveDays,Wasserstein,86.31262006
+ElectricDevices,Autocorrelation,73.97043906
+ElectricDevices,Chebyshev,74.93304303
+ElectricDevices,Cosine,66.40797773
+ElectricDevices,DTW,77.21369851
+ElectricDevices,EDR,65.64608086
+ElectricDevices,Euclidean,64.75932463
+ElectricDevices,Gaussian Kernel,59.13383868
+ElectricDevices,Kullback Leibler,72.56838026
+ElectricDevices,Manhattan,68.02278963
+ElectricDevices,MSM,77.5192178
+ElectricDevices,Sigmoid Kernel,67.60342621
+ElectricDevices,Wasserstein,73.09787744
+FaceAll,Autocorrelation,84.5950895
+FaceAll,Chebyshev,82.68452942
+FaceAll,Cosine,86.10295057
+FaceAll,DTW,92.35034222
+FaceAll,EDR,95.31718211
+FaceAll,Euclidean,88.55316501
+FaceAll,Gaussian Kernel,87.65127621
+FaceAll,Kullback Leibler,82.14080324
+FaceAll,Manhattan,90.21103942
+FaceAll,MSM,94.77339181
+FaceAll,Sigmoid Kernel,85.4106561
+FaceAll,Wasserstein,82.93414305
+FaceFour,Autocorrelation,72.96120071
+FaceFour,Chebyshev,74.86889465
+FaceFour,Cosine,88.15383845
+FaceFour,DTW,90.15191484
+FaceFour,EDR,98.07269344
+FaceFour,Euclidean,89.03272578
+FaceFour,Gaussian Kernel,88.95002797
+FaceFour,Kullback Leibler,84.76678502
+FaceFour,Manhattan,91.84935184
+FaceFour,MSM,96.16760317
+FaceFour,Sigmoid Kernel,87.19254198
+FaceFour,Wasserstein,85.52764011
+FacesUCR,Autocorrelation,83.26655102
+FacesUCR,Chebyshev,83.92066638
+FacesUCR,Cosine,84.11258268
+FacesUCR,DTW,95.54786108
+FacesUCR,EDR,95.71354439
+FacesUCR,Euclidean,86.76689438
+FacesUCR,Gaussian Kernel,86.70676046
+FacesUCR,Kullback Leibler,82.44083804
+FacesUCR,Manhattan,88.29528432
+FacesUCR,MSM,96.1096633
+FacesUCR,Sigmoid Kernel,82.68089086
+FacesUCR,Wasserstein,86.93480922
+FiftyWords,Autocorrelation,83.53599583
+FiftyWords,Chebyshev,81.26759711
+FiftyWords,Cosine,87.04367601
+FiftyWords,DTW,94.47470868
+FiftyWords,EDR,90.98258964
+FiftyWords,Euclidean,87.48503306
+FiftyWords,Gaussian Kernel,86.93369869
+FiftyWords,Kullback Leibler,77.90492761
+FiftyWords,Manhattan,88.78058438
+FiftyWords,MSM,95.17891807
+FiftyWords,Sigmoid Kernel,86.74249825
+FiftyWords,Wasserstein,78.34863363
+Fish,Autocorrelation,74.55003377
+Fish,Chebyshev,82.46348913
+Fish,Cosine,77.46002403
+Fish,DTW,84.41787482
+Fish,EDR,88.76370053
+Fish,Euclidean,80.80104514
+Fish,Gaussian Kernel,77.82778636
+Fish,Kullback Leibler,82.18996861
+Fish,Manhattan,79.59297984
+Fish,MSM,90.52283433
+Fish,Sigmoid Kernel,77.31153243
+Fish,Wasserstein,84.1655098
+FordA,Autocorrelation,79.98111035
+FordA,Chebyshev,58.08681424
+FordA,Cosine,57.93916706
+FordA,DTW,61.41375911
+FordA,EDR,60.7071783
+FordA,Euclidean,57.70706799
+FordA,Gaussian Kernel,53.46884702
+FordA,Kullback Leibler,51.96951
+FordA,Manhattan,58.14495391
+FordA,MSM,65.97381647
+FordA,Sigmoid Kernel,59.06300915
+FordA,Wasserstein,53.16619902
+FordB,Autocorrelation,64.09800682
+FordB,Chebyshev,54.37323562
+FordB,Cosine,49.31650092
+FordB,DTW,56.15362572
+FordB,EDR,53.58394966
+FordB,Euclidean,49.40613015
+FordB,Gaussian Kernel,48.31716552
+FordB,Kullback Leibler,52.08403197
+FordB,Manhattan,49.68934632
+FordB,MSM,57.32429318
+FordB,Sigmoid Kernel,49.7683054
+FordB,Wasserstein,52.08555628
+GunPoint,Autocorrelation,76.56472262
+GunPoint,Chebyshev,82.3257468
+GunPoint,Cosine,80.31650071
+GunPoint,DTW,78.68065434
+GunPoint,EDR,79.79196302
+GunPoint,Euclidean,81.55227596
+GunPoint,Gaussian Kernel,79.40078236
+GunPoint,Kullback Leibler,75.60455192
+GunPoint,Manhattan,82.29018492
+GunPoint,MSM,92.63869132
+GunPoint,Sigmoid Kernel,80.34317212
+GunPoint,Wasserstein,79.07183499
+Ham,Autocorrelation,50.39941903
+Ham,Chebyshev,48.56572259
+Ham,Cosine,56.71750182
+Ham,DTW,55.75526507
+Ham,EDR,54.42992012
+Ham,Euclidean,55.82788671
+Ham,Gaussian Kernel,56.35439361
+Ham,Kullback Leibler,50.63543936
+Ham,Manhattan,53.88525781
+Ham,MSM,54.15758896
+Ham,Sigmoid Kernel,56.77196805
+Ham,Wasserstein,44.73493101
+HandOutlines,Autocorrelation,60.43431363
+HandOutlines,Chebyshev,71.3159481
+HandOutlines,Cosine,71.49519368
+HandOutlines,DTW,66.58418197
+HandOutlines,EDR,70.29757939
+HandOutlines,Euclidean,70.6576568
+HandOutlines,Gaussian Kernel,71.24456711
+HandOutlines,Kullback Leibler,58.2817804
+HandOutlines,Manhattan,70.41813394
+HandOutlines,MSM,67.21709337
+HandOutlines,Sigmoid Kernel,71.92347959
+HandOutlines,Wasserstein,63.25148314
+Haptics,Autocorrelation,60.75203634
+Haptics,Chebyshev,58.13428759
+Haptics,Cosine,60.23261458
+Haptics,DTW,60.30815632
+Haptics,EDR,59.44538129
+Haptics,Euclidean,60.67387802
+Haptics,Gaussian Kernel,60.53408277
+Haptics,Kullback Leibler,54.712496
+Haptics,Manhattan,59.87003864
+Haptics,MSM,61.82634357
+Haptics,Sigmoid Kernel,60.21925103
+Haptics,Wasserstein,59.44836543
+Herring,Autocorrelation,51.92307692
+Herring,Chebyshev,45.59716599
+Herring,Cosine,53.6437247
+Herring,DTW,53.6437247
+Herring,EDR,49.03846154
+Herring,Euclidean,51.41700405
+Herring,Gaussian Kernel,53.79554656
+Herring,Kullback Leibler,49.49392713
+Herring,Manhattan,53.84615385
+Herring,MSM,54.80769231
+Herring,Sigmoid Kernel,53.6437247
+Herring,Wasserstein,50.15182186
+InlineSkate,Autocorrelation,60.69144205
+InlineSkate,Chebyshev,57.77879846
+InlineSkate,Cosine,58.15263031
+InlineSkate,DTW,64.66824636
+InlineSkate,EDR,71.03659802
+InlineSkate,Euclidean,59.75310719
+InlineSkate,Gaussian Kernel,58.76411293
+InlineSkate,Kullback Leibler,63.53326305
+InlineSkate,Manhattan,60.79659469
+InlineSkate,MSM,70.28518873
+InlineSkate,Sigmoid Kernel,57.90517334
+InlineSkate,Wasserstein,68.09644918
+InsectWingbeatSound,Autocorrelation,86.54343434
+InsectWingbeatSound,Chebyshev,87.35311448
+InsectWingbeatSound,Cosine,89.21731201
+InsectWingbeatSound,DTW,78.08013468
+InsectWingbeatSound,EDR,82.21823793
+InsectWingbeatSound,Euclidean,89.57516835
+InsectWingbeatSound,Gaussian Kernel,88.65381594
+InsectWingbeatSound,Kullback Leibler,57.74691358
+InsectWingbeatSound,Manhattan,90.67612233
+InsectWingbeatSound,MSM,85.04175084
+InsectWingbeatSound,Sigmoid Kernel,89.41938833
+InsectWingbeatSound,Wasserstein,58.00743547
+ItalyPowerDemand,Autocorrelation,73.06314883
+ItalyPowerDemand,Chebyshev,88.84280037
+ItalyPowerDemand,Cosine,86.91104916
+ItalyPowerDemand,DTW,83.81518503
+ItalyPowerDemand,EDR,89.91388624
+ItalyPowerDemand,Euclidean,91.22051468
+ItalyPowerDemand,Gaussian Kernel,89.92739169
+ItalyPowerDemand,Kullback Leibler,66.3982577
+ItalyPowerDemand,Manhattan,91.42262417
+ItalyPowerDemand,MSM,90.13422337
+ItalyPowerDemand,Sigmoid Kernel,85.21087387
+ItalyPowerDemand,Wasserstein,67.65775874
+LargeKitchenAppliances,Autocorrelation,75.136
+LargeKitchenAppliances,Chebyshev,51.35786667
+LargeKitchenAppliances,Cosine,53.4656
+LargeKitchenAppliances,DTW,75.0112
+LargeKitchenAppliances,EDR,61.008
+LargeKitchenAppliances,Euclidean,54.67946667
+LargeKitchenAppliances,Gaussian Kernel,55.3696
+LargeKitchenAppliances,Kullback Leibler,63.696
+LargeKitchenAppliances,Manhattan,53.6448
+LargeKitchenAppliances,MSM,63.58613333
+LargeKitchenAppliances,Sigmoid Kernel,52.97813333
+LargeKitchenAppliances,Wasserstein,69.37386667
+Lightning2,Autocorrelation,69.85930736
+Lightning2,Chebyshev,54.5995671
+Lightning2,Cosine,64.44805195
+Lightning2,DTW,77.27272727
+Lightning2,EDR,73.64718615
+Lightning2,Euclidean,64.77272727
+Lightning2,Gaussian Kernel,64.88095238
+Lightning2,Kullback Leibler,70.61688312
+Lightning2,Manhattan,73.16017316
+Lightning2,MSM,75.48701299
+Lightning2,Sigmoid Kernel,64.28571429
+Lightning2,Wasserstein,75.97402597
+Lightning7,Autocorrelation,80.53047568
+Lightning7,Chebyshev,50.89716908
+Lightning7,Cosine,72.39824656
+Lightning7,DTW,88.88577218
+Lightning7,EDR,85.65993686
+Lightning7,Euclidean,72.57401958
+Lightning7,Gaussian Kernel,72.5817584
+Lightning7,Kullback Leibler,80.10974814
+Lightning7,Manhattan,87.22207964
+Lightning7,MSM,88.83226169
+Lightning7,Sigmoid Kernel,71.89818194
+Lightning7,Wasserstein,82.71988319
+Mallat,Autocorrelation,95.82491463
+Mallat,Chebyshev,95.58075855
+Mallat,Cosine,98.69434141
+Mallat,DTW,99.3123215
+Mallat,EDR,97.22386985
+Mallat,Euclidean,98.76318972
+Mallat,Gaussian Kernel,98.70004217
+Mallat,Kullback Leibler,93.80322167
+Mallat,Manhattan,98.85602424
+Mallat,MSM,98.35696542
+Mallat,Sigmoid Kernel,98.69087458
+Mallat,Wasserstein,94.91651821
+Meat,Autocorrelation,94.75
+Meat,Chebyshev,97.79166667
+Meat,Cosine,96.25
+Meat,DTW,96.41666667
+Meat,EDR,64.08333333
+Meat,Euclidean,97.66666667
+Meat,Gaussian Kernel,96.25
+Meat,Kullback Leibler,93.5
+Meat,Manhattan,97.20833333
+Meat,MSM,97.16666667
+Meat,Sigmoid Kernel,96.25
+Meat,Wasserstein,95.95833333
+MedicalImages,Autocorrelation,80.52092864
+MedicalImages,Chebyshev,88.11975703
+MedicalImages,Cosine,88.85281703
+MedicalImages,DTW,93.22525929
+MedicalImages,EDR,85.03540166
+MedicalImages,Euclidean,89.78614487
+MedicalImages,Gaussian Kernel,89.48356346
+MedicalImages,Kullback Leibler,82.00145907
+MedicalImages,Manhattan,89.88063559
+MedicalImages,MSM,91.1517116
+MedicalImages,Sigmoid Kernel,88.36919098
+MedicalImages,Wasserstein,83.75192131
+MiddlePhalanxOutlineAgeGroup,Autocorrelation,57.57013883
+MiddlePhalanxOutlineAgeGroup,Chebyshev,53.62003318
+MiddlePhalanxOutlineAgeGroup,Cosine,61.25783356
+MiddlePhalanxOutlineAgeGroup,DTW,54.25772234
+MiddlePhalanxOutlineAgeGroup,EDR,60.25524222
+MiddlePhalanxOutlineAgeGroup,Euclidean,58.33900829
+MiddlePhalanxOutlineAgeGroup,Gaussian Kernel,61.18510477
+MiddlePhalanxOutlineAgeGroup,Kullback Leibler,62.30832136
+MiddlePhalanxOutlineAgeGroup,Manhattan,61.06624188
+MiddlePhalanxOutlineAgeGroup,MSM,53.34927286
+MiddlePhalanxOutlineAgeGroup,Sigmoid Kernel,61.38224272
+MiddlePhalanxOutlineAgeGroup,Wasserstein,58.10010573
+MiddlePhalanxOutlineCorrect,Autocorrelation,59.11325301
+MiddlePhalanxOutlineCorrect,Chebyshev,66.62409639
+MiddlePhalanxOutlineCorrect,Cosine,65.20963855
+MiddlePhalanxOutlineCorrect,DTW,62.65060241
+MiddlePhalanxOutlineCorrect,EDR,65.22289157
+MiddlePhalanxOutlineCorrect,Euclidean,64.76626506
+MiddlePhalanxOutlineCorrect,Gaussian Kernel,65.33012048
+MiddlePhalanxOutlineCorrect,Kullback Leibler,62.75903614
+MiddlePhalanxOutlineCorrect,Manhattan,64.21204819
+MiddlePhalanxOutlineCorrect,MSM,65.40963855
+MiddlePhalanxOutlineCorrect,Sigmoid Kernel,65.17349398
+MiddlePhalanxOutlineCorrect,Wasserstein,59.98795181
+MiddlePhalanxTW,Autocorrelation,69.49190641
+MiddlePhalanxTW,Chebyshev,72.05150212
+MiddlePhalanxTW,Cosine,74.42852391
+MiddlePhalanxTW,DTW,74.67001967
+MiddlePhalanxTW,EDR,74.3249223
+MiddlePhalanxTW,Euclidean,71.9076512
+MiddlePhalanxTW,Gaussian Kernel,74.20538511
+MiddlePhalanxTW,Kullback Leibler,71.22729193
+MiddlePhalanxTW,Manhattan,72.53762876
+MiddlePhalanxTW,MSM,72.74579669
+MiddlePhalanxTW,Sigmoid Kernel,74.52101364
+MiddlePhalanxTW,Wasserstein,72.59923949
+MoteStrain,Autocorrelation,68.4545863
+MoteStrain,Chebyshev,64.04634444
+MoteStrain,Cosine,71.08607741
+MoteStrain,DTW,84.11797933
+MoteStrain,EDR,89.17632711
+MoteStrain,Euclidean,70.6036331
+MoteStrain,Gaussian Kernel,70.03466205
+MoteStrain,Kullback Leibler,72.94691572
+MoteStrain,Manhattan,84.20784389
+MoteStrain,MSM,85.6687849
+MoteStrain,Sigmoid Kernel,71.85916939
+MoteStrain,Wasserstein,74.15495218
+NonInvasiveFatalECGThorax1,Autocorrelation,92.97874358
+NonInvasiveFatalECGThorax1,Chebyshev,97.5208982
+NonInvasiveFatalECGThorax1,Cosine,97.55491302
+NonInvasiveFatalECGThorax1,DTW,97.26165964
+NonInvasiveFatalECGThorax1,EDR,97.69992451
+NonInvasiveFatalECGThorax1,Euclidean,97.75709848
+NonInvasiveFatalECGThorax1,Gaussian Kernel,97.57472711
+NonInvasiveFatalECGThorax1,Kullback Leibler,94.67040798
+NonInvasiveFatalECGThorax1,Manhattan,97.62111465
+NonInvasiveFatalECGThorax1,MSM,97.43983137
+NonInvasiveFatalECGThorax1,Sigmoid Kernel,97.53684579
+NonInvasiveFatalECGThorax1,Wasserstein,97.54062994
+NonInvasiveFatalECGThorax2,Autocorrelation,95.14774536
+NonInvasiveFatalECGThorax2,Chebyshev,98.14254454
+NonInvasiveFatalECGThorax2,Cosine,98.08879191
+NonInvasiveFatalECGThorax2,DTW,97.85492376
+NonInvasiveFatalECGThorax2,EDR,98.28425003
+NonInvasiveFatalECGThorax2,Euclidean,98.30109961
+NonInvasiveFatalECGThorax2,Gaussian Kernel,98.10919019
+NonInvasiveFatalECGThorax2,Kullback Leibler,94.46602028
+NonInvasiveFatalECGThorax2,Manhattan,98.11250834
+NonInvasiveFatalECGThorax2,MSM,98.02830647
+NonInvasiveFatalECGThorax2,Sigmoid Kernel,98.07809935
+NonInvasiveFatalECGThorax2,Wasserstein,97.97535254
+OliveOil,Autocorrelation,88.27271062
+OliveOil,Chebyshev,84.55880138
+OliveOil,Cosine,87.7785409
+OliveOil,DTW,90.652035
+OliveOil,EDR,50.48076923
+OliveOil,Euclidean,90.18238706
+OliveOil,Gaussian Kernel,87.7785409
+OliveOil,Kullback Leibler,57.05684778
+OliveOil,Manhattan,88.70701058
+OliveOil,MSM,88.9473952
+OliveOil,Sigmoid Kernel,87.7785409
+OliveOil,Wasserstein,86.66946479
+OSULeaf,Autocorrelation,78.759685
+OSULeaf,Chebyshev,74.9464295
+OSULeaf,Cosine,76.72789008
+OSULeaf,DTW,81.77985033
+OSULeaf,EDR,91.43159428
+OSULeaf,Euclidean,77.91047956
+OSULeaf,Gaussian Kernel,77.20587908
+OSULeaf,Kullback Leibler,67.36436471
+OSULeaf,Manhattan,78.29413928
+OSULeaf,MSM,91.7212847
+OSULeaf,Sigmoid Kernel,76.6401253
+OSULeaf,Wasserstein,66.44140055
+PhalangesOutlinesCorrect,Autocorrelation,55.29914334
+PhalangesOutlinesCorrect,Chebyshev,60.34289248
+PhalangesOutlinesCorrect,Cosine,60.03052132
+PhalangesOutlinesCorrect,DTW,59.38831371
+PhalangesOutlinesCorrect,EDR,59.81306404
+PhalangesOutlinesCorrect,Euclidean,61.24335746
+PhalangesOutlinesCorrect,Gaussian Kernel,60.16909845
+PhalangesOutlinesCorrect,Kullback Leibler,58.35041688
+PhalangesOutlinesCorrect,Manhattan,60.98882221
+PhalangesOutlinesCorrect,MSM,59.71385542
+PhalangesOutlinesCorrect,Sigmoid Kernel,59.95407485
+PhalangesOutlinesCorrect,Wasserstein,57.82044528
+Phoneme,Autocorrelation,60.84096377
+Phoneme,Chebyshev,49.81126884
+Phoneme,Cosine,53.32941032
+Phoneme,DTW,72.04502667
+Phoneme,EDR,73.15249102
+Phoneme,Euclidean,54.25024419
+Phoneme,Gaussian Kernel,54.59491221
+Phoneme,Kullback Leibler,58.69809899
+Phoneme,Manhattan,57.1825227
+Phoneme,MSM,70.52498735
+Phoneme,Sigmoid Kernel,52.91259933
+Phoneme,Wasserstein,62.27685606
+Plane,Autocorrelation,99.06891956
+Plane,Chebyshev,98.55386124
+Plane,Cosine,98.64191534
+Plane,DTW,100
+Plane,EDR,99.90971108
+Plane,Euclidean,98.54159431
+Plane,Gaussian Kernel,98.42065917
+Plane,Kullback Leibler,98.57196334
+Plane,Manhattan,98.91227444
+Plane,MSM,100
+Plane,Sigmoid Kernel,98.73220426
+Plane,Wasserstein,99.70911126
+ProximalPhalanxOutlineAgeGroup,Autocorrelation,79.66520598
+ProximalPhalanxOutlineAgeGroup,Chebyshev,65.70561882
+ProximalPhalanxOutlineAgeGroup,Cosine,83.05591272
+ProximalPhalanxOutlineAgeGroup,DTW,66.12173876
+ProximalPhalanxOutlineAgeGroup,EDR,89.56148047
+ProximalPhalanxOutlineAgeGroup,Euclidean,73.77010139
+ProximalPhalanxOutlineAgeGroup,Gaussian Kernel,82.5280739
+ProximalPhalanxOutlineAgeGroup,Kullback Leibler,87.28854399
+ProximalPhalanxOutlineAgeGroup,Manhattan,74.75007648
+ProximalPhalanxOutlineAgeGroup,MSM,65.86293218
+ProximalPhalanxOutlineAgeGroup,Sigmoid Kernel,83.35130561
+ProximalPhalanxOutlineAgeGroup,Wasserstein,71.2821371
+ProximalPhalanxOutlineCorrect,Autocorrelation,56.55178064
+ProximalPhalanxOutlineCorrect,Chebyshev,60.70024033
+ProximalPhalanxOutlineCorrect,Cosine,60.23050033
+ProximalPhalanxOutlineCorrect,DTW,58.97694997
+ProximalPhalanxOutlineCorrect,EDR,61.66020319
+ProximalPhalanxOutlineCorrect,Euclidean,60.24415556
+ProximalPhalanxOutlineCorrect,Gaussian Kernel,60.12398951
+ProximalPhalanxOutlineCorrect,Kullback Leibler,64.54009176
+ProximalPhalanxOutlineCorrect,Manhattan,59.82903649
+ProximalPhalanxOutlineCorrect,MSM,59.55320079
+ProximalPhalanxOutlineCorrect,Sigmoid Kernel,60.27692812
+ProximalPhalanxOutlineCorrect,Wasserstein,54.5308062
+ProximalPhalanxTW,Autocorrelation,85.85313472
+ProximalPhalanxTW,Chebyshev,86.37585103
+ProximalPhalanxTW,Cosine,87.86956714
+ProximalPhalanxTW,DTW,88.98598111
+ProximalPhalanxTW,EDR,88.38631199
+ProximalPhalanxTW,Euclidean,87.93739102
+ProximalPhalanxTW,Gaussian Kernel,87.86598387
+ProximalPhalanxTW,Kullback Leibler,76.67481776
+ProximalPhalanxTW,Manhattan,88.22034481
+ProximalPhalanxTW,MSM,88.97300653
+ProximalPhalanxTW,Sigmoid Kernel,87.87219885
+ProximalPhalanxTW,Wasserstein,84.92486543
+RefrigerationDevices,Autocorrelation,55.9776
+RefrigerationDevices,Chebyshev,49.61066667
+RefrigerationDevices,Cosine,50.74346667
+RefrigerationDevices,DTW,59.04533333
+RefrigerationDevices,EDR,63.38986667
+RefrigerationDevices,Euclidean,51.60746667
+RefrigerationDevices,Gaussian Kernel,51.78773333
+RefrigerationDevices,Kullback Leibler,62.4832
+RefrigerationDevices,Manhattan,50.2976
+RefrigerationDevices,MSM,59.1968
+RefrigerationDevices,Sigmoid Kernel,50.4
+RefrigerationDevices,Wasserstein,58.176
+ScreenType,Autocorrelation,50.93973333
+ScreenType,Chebyshev,50.37973333
+ScreenType,Cosine,51.344
+ScreenType,DTW,51.6832
+ScreenType,EDR,56.8864
+ScreenType,Euclidean,50.4768
+ScreenType,Gaussian Kernel,49.1808
+ScreenType,Kullback Leibler,55.23626667
+ScreenType,Manhattan,50.03413333
+ScreenType,MSM,56.12053333
+ScreenType,Sigmoid Kernel,51.76213333
+ScreenType,Wasserstein,57.0528
+ShapeletSim,Autocorrelation,87.98148148
+ShapeletSim,Chebyshev,46.72222222
+ShapeletSim,Cosine,50.7962963
+ShapeletSim,DTW,71.60493827
+ShapeletSim,EDR,86.3117284
+ShapeletSim,Euclidean,51.30864198
+ShapeletSim,Gaussian Kernel,51.27777778
+ShapeletSim,Kullback Leibler,46.2962963
+ShapeletSim,Manhattan,48.54938272
+ShapeletSim,MSM,73.83950617
+ShapeletSim,Sigmoid Kernel,50.48765432
+ShapeletSim,Wasserstein,50.98148148
+ShapesAll,Autocorrelation,93.42627119
+ShapesAll,Chebyshev,91.46242938
+ShapesAll,Cosine,91.73107345
+ShapesAll,DTW,93.92881356
+ShapesAll,EDR,96.90677966
+ShapesAll,Euclidean,92.27740113
+ShapesAll,Gaussian Kernel,92.02655367
+ShapesAll,Kullback Leibler,93.32881356
+ShapesAll,Manhattan,92.43615819
+ShapesAll,MSM,96.58644068
+ShapesAll,Sigmoid Kernel,91.40508475
+ShapesAll,Wasserstein,92.98785311
+SmallKitchenAppliances,Autocorrelation,54.512
+SmallKitchenAppliances,Chebyshev,50.36693333
+SmallKitchenAppliances,Cosine,48.48746667
+SmallKitchenAppliances,DTW,64.336
+SmallKitchenAppliances,EDR,46.58773333
+SmallKitchenAppliances,Euclidean,48.74986667
+SmallKitchenAppliances,Gaussian Kernel,49.05493333
+SmallKitchenAppliances,Kullback Leibler,53.384
+SmallKitchenAppliances,Manhattan,50.37546667
+SmallKitchenAppliances,MSM,59.232
+SmallKitchenAppliances,Sigmoid Kernel,48.50453333
+SmallKitchenAppliances,Wasserstein,61.20426667
+SonyAIBORobotSurface1,Autocorrelation,80.14724162
+SonyAIBORobotSurface1,Chebyshev,71.57942911
+SonyAIBORobotSurface1,Cosine,72.24614098
+SonyAIBORobotSurface1,DTW,76.44473072
+SonyAIBORobotSurface1,EDR,85.3314914
+SonyAIBORobotSurface1,Euclidean,74.4830158
+SonyAIBORobotSurface1,Gaussian Kernel,73.89201528
+SonyAIBORobotSurface1,Kullback Leibler,70.41155333
+SonyAIBORobotSurface1,Manhattan,77.15607838
+SonyAIBORobotSurface1,MSM,78.69573078
+SonyAIBORobotSurface1,Sigmoid Kernel,71.17940199
+SonyAIBORobotSurface1,Wasserstein,86.39851289
+SonyAIBORobotSurface2,Autocorrelation,72.43872892
+SonyAIBORobotSurface2,Chebyshev,65.84824341
+SonyAIBORobotSurface2,Cosine,73.12948467
+SonyAIBORobotSurface2,DTW,77.77071102
+SonyAIBORobotSurface2,EDR,80.57333892
+SonyAIBORobotSurface2,Euclidean,75.66046967
+SonyAIBORobotSurface2,Gaussian Kernel,75.40420278
+SonyAIBORobotSurface2,Kullback Leibler,61.25710558
+SonyAIBORobotSurface2,Manhattan,79.67314323
+SonyAIBORobotSurface2,MSM,80.13675333
+SonyAIBORobotSurface2,Sigmoid Kernel,70.97404715
+SonyAIBORobotSurface2,Wasserstein,72.99086758
+StarLightCurves,Autocorrelation,93.35617543
+StarLightCurves,Chebyshev,92.05004744
+StarLightCurves,Cosine,92.06073934
+StarLightCurves,DTW,92.62464873
+StarLightCurves,EDR,92.7241027
+StarLightCurves,Euclidean,91.9764733
+StarLightCurves,Gaussian Kernel,91.66076144
+StarLightCurves,Kullback Leibler,92.64572849
+StarLightCurves,Manhattan,92.06510247
+StarLightCurves,MSM,93.50762043
+StarLightCurves,Sigmoid Kernel,91.83407625
+StarLightCurves,Wasserstein,91.29726036
+Strawberry,Autocorrelation,65.35682455
+Strawberry,Chebyshev,82.03144894
+Strawberry,Cosine,80.18843901
+Strawberry,DTW,82.84313725
+Strawberry,EDR,81.85319582
+Strawberry,Euclidean,83.04208047
+Strawberry,Gaussian Kernel,80.42876241
+Strawberry,Kullback Leibler,77.21224854
+Strawberry,Manhattan,83.65800866
+Strawberry,MSM,84.61452763
+Strawberry,Sigmoid Kernel,80.02610135
+Strawberry,Wasserstein,83.08664375
+SwedishLeaf,Autocorrelation,93.5917984
+SwedishLeaf,Chebyshev,85.47750233
+SwedishLeaf,Cosine,85.93785929
+SwedishLeaf,DTW,88.16761323
+SwedishLeaf,EDR,95.55151131
+SwedishLeaf,Euclidean,87.31577523
+SwedishLeaf,Gaussian Kernel,87.66072171
+SwedishLeaf,Kullback Leibler,90.88141046
+SwedishLeaf,Manhattan,87.19136798
+SwedishLeaf,MSM,94.97956403
+SwedishLeaf,Sigmoid Kernel,85.07475043
+SwedishLeaf,Wasserstein,91.80640089
+Symbols,Autocorrelation,97.4412889
+Symbols,Chebyshev,94.5415558
+Symbols,Cosine,95.6125513
+Symbols,DTW,98.53570305
+Symbols,EDR,98.83463171
+Symbols,Euclidean,96.39329316
+Symbols,Gaussian Kernel,96.04756538
+Symbols,Kullback Leibler,79.40097935
+Symbols,Manhattan,96.54710873
+Symbols,MSM,99.25745649
+Symbols,Sigmoid Kernel,95.47132203
+Symbols,Wasserstein,81.60308623
+SyntheticControl,Autocorrelation,81.948
+SyntheticControl,Chebyshev,93.73333333
+SyntheticControl,Cosine,90.61733333
+SyntheticControl,DTW,99.456
+SyntheticControl,EDR,97.68333333
+SyntheticControl,Euclidean,90.484
+SyntheticControl,Gaussian Kernel,90.536
+SyntheticControl,Kullback Leibler,62.32
+SyntheticControl,Manhattan,89.92666667
+SyntheticControl,MSM,99.47733333
+SyntheticControl,Sigmoid Kernel,90.556
+SyntheticControl,Wasserstein,68.328
+ToeSegmentation1,Autocorrelation,71.85570988
+ToeSegmentation1,Chebyshev,63.89660494
+ToeSegmentation1,Cosine,62.43055556
+ToeSegmentation1,DTW,64.78780864
+ToeSegmentation1,EDR,75.76967593
+ToeSegmentation1,Euclidean,62.72376543
+ToeSegmentation1,Gaussian Kernel,62.42283951
+ToeSegmentation1,Kullback Leibler,65.61728395
+ToeSegmentation1,Manhattan,63.92361111
+ToeSegmentation1,MSM,71.40432099
+ToeSegmentation1,Sigmoid Kernel,61.00694444
+ToeSegmentation1,Wasserstein,63.04398148
+ToeSegmentation2,Autocorrelation,77.27987421
+ToeSegmentation2,Chebyshev,67.98349057
+ToeSegmentation2,Cosine,69.83097484
+ToeSegmentation2,DTW,60.61320755
+ToeSegmentation2,EDR,71.02987421
+ToeSegmentation2,Euclidean,70.67610063
+ToeSegmentation2,Gaussian Kernel,70.10613208
+ToeSegmentation2,Kullback Leibler,60.75078616
+ToeSegmentation2,Manhattan,75.21619497
+ToeSegmentation2,MSM,69.79166667
+ToeSegmentation2,Sigmoid Kernel,69.30031447
+ToeSegmentation2,Wasserstein,63.89544025
+Trace,Autocorrelation,93.30980809
+Trace,Chebyshev,89.00724078
+Trace,Cosine,91.92422159
+Trace,DTW,97.11329829
+Trace,EDR,94.67199872
+Trace,Euclidean,92.84552762
+Trace,Gaussian Kernel,92.4632164
+Trace,Kullback Leibler,94.23293672
+Trace,Manhattan,90.95416211
+Trace,MSM,95.13910645
+Trace,Sigmoid Kernel,91.56412161
+Trace,Wasserstein,92.47525643
+TwoLeadECG,Autocorrelation,68.60651189
+TwoLeadECG,Chebyshev,71.00237413
+TwoLeadECG,Cosine,63.27043443
+TwoLeadECG,DTW,77.29488484
+TwoLeadECG,EDR,81.72956557
+TwoLeadECG,Euclidean,68.13600345
+TwoLeadECG,Gaussian Kernel,63.6513736
+TwoLeadECG,Kullback Leibler,65.71038757
+TwoLeadECG,Manhattan,67.68306971
+TwoLeadECG,MSM,85.48191657
+TwoLeadECG,Sigmoid Kernel,62.84309191
+TwoLeadECG,Wasserstein,89.26062961
+TwoPatterns,Autocorrelation,68.90232297
+TwoPatterns,Chebyshev,76.00294596
+TwoPatterns,Cosine,95.64546958
+TwoPatterns,DTW,99.8412521
+TwoPatterns,EDR,96.24750432
+TwoPatterns,Euclidean,95.34317876
+TwoPatterns,Gaussian Kernel,93.99665131
+TwoPatterns,Kullback Leibler,51.95779459
+TwoPatterns,Manhattan,96.80043162
+TwoPatterns,MSM,97.92750762
+TwoPatterns,Sigmoid Kernel,95.3015924
+TwoPatterns,Wasserstein,58.01774034
+UWaveGestureLibraryAll,Autocorrelation,84.95075678
+UWaveGestureLibraryAll,Chebyshev,83.51170226
+UWaveGestureLibraryAll,Cosine,98.13237369
+UWaveGestureLibraryAll,DTW,94.67711925
+UWaveGestureLibraryAll,EDR,93.37782468
+UWaveGestureLibraryAll,Euclidean,97.73527534
+UWaveGestureLibraryAll,Gaussian Kernel,95.40329178
+UWaveGestureLibraryAll,Kullback Leibler,57.57020773
+UWaveGestureLibraryAll,Manhattan,98.3855704
+UWaveGestureLibraryAll,MSM,95.89724209
+UWaveGestureLibraryAll,Sigmoid Kernel,98.20189457
+UWaveGestureLibraryAll,Wasserstein,62.51030529
+UWaveGestureLibraryX,Autocorrelation,76.97554238
+UWaveGestureLibraryX,Chebyshev,82.06315502
+UWaveGestureLibraryX,Cosine,87.37424551
+UWaveGestureLibraryX,DTW,88.52567429
+UWaveGestureLibraryX,EDR,84.97218894
+UWaveGestureLibraryX,Euclidean,86.48840239
+UWaveGestureLibraryX,Gaussian Kernel,83.35620752
+UWaveGestureLibraryX,Kullback Leibler,60.81498148
+UWaveGestureLibraryX,Manhattan,87.46781793
+UWaveGestureLibraryX,MSM,87.28884496
+UWaveGestureLibraryX,Sigmoid Kernel,87.45051138
+UWaveGestureLibraryX,Wasserstein,65.60102378
+UWaveGestureLibraryY,Autocorrelation,71.41717485
+UWaveGestureLibraryY,Chebyshev,85.42542723
+UWaveGestureLibraryY,Cosine,88.69883659
+UWaveGestureLibraryY,DTW,88.67297814
+UWaveGestureLibraryY,EDR,83.89775525
+UWaveGestureLibraryY,Euclidean,86.86988173
+UWaveGestureLibraryY,Gaussian Kernel,81.67926711
+UWaveGestureLibraryY,Kullback Leibler,62.39011724
+UWaveGestureLibraryY,Manhattan,87.35717066
+UWaveGestureLibraryY,MSM,88.15807113
+UWaveGestureLibraryY,Sigmoid Kernel,88.75637401
+UWaveGestureLibraryY,Wasserstein,65.01864491
+UWaveGestureLibraryZ,Autocorrelation,75.85564674
+UWaveGestureLibraryZ,Chebyshev,81.13405526
+UWaveGestureLibraryZ,Cosine,85.23070339
+UWaveGestureLibraryZ,DTW,86.06047239
+UWaveGestureLibraryZ,EDR,83.47173716
+UWaveGestureLibraryZ,Euclidean,83.90899671
+UWaveGestureLibraryZ,Gaussian Kernel,80.11679257
+UWaveGestureLibraryZ,Kullback Leibler,65.00228391
+UWaveGestureLibraryZ,Manhattan,84.39810406
+UWaveGestureLibraryZ,MSM,86.20896962
+UWaveGestureLibraryZ,Sigmoid Kernel,85.14636707
+UWaveGestureLibraryZ,Wasserstein,66.7958452
+Wafer,Autocorrelation,95.06320356
+Wafer,Chebyshev,84.9089855
+Wafer,Cosine,97.55936486
+Wafer,DTW,95.24482237
+Wafer,EDR,95.36371616
+Wafer,Euclidean,97.6106934
+Wafer,Gaussian Kernel,96.73803986
+Wafer,Kullback Leibler,65.93654075
+Wafer,Manhattan,98.72898285
+Wafer,MSM,96.09700738
+Wafer,Sigmoid Kernel,97.72557416
+Wafer,Wasserstein,89.7568936
+Wine,Autocorrelation,53.22359396
+Wine,Chebyshev,51.30315501
+Wine,Cosine,60.08230453
+Wine,DTW,57.06447188
+Wine,EDR,49.96570645
+Wine,Euclidean,56.58436214
+Wine,Gaussian Kernel,60.21947874
+Wine,Kullback Leibler,54.9382716
+Wine,Manhattan,60.49382716
+Wine,MSM,60.08230453
+Wine,Sigmoid Kernel,60.08230453
+Wine,Wasserstein,59.05349794
+WordSynonyms,Autocorrelation,74.85425231
+WordSynonyms,Chebyshev,71.11714209
+WordSynonyms,Cosine,79.78791833
+WordSynonyms,DTW,89.6044631
+WordSynonyms,EDR,89.10183849
+WordSynonyms,Euclidean,80.04544397
+WordSynonyms,Gaussian Kernel,79.72819682
+WordSynonyms,Kullback Leibler,68.83605986
+WordSynonyms,Manhattan,82.27676802
+WordSynonyms,MSM,91.63771886
+WordSynonyms,Sigmoid Kernel,79.2080005
+WordSynonyms,Wasserstein,69.9134638
+Worms,Autocorrelation,71.50212269
+Worms,Chebyshev,65.19787086
+Worms,Cosine,61.45424071
+Worms,DTW,70.76529984
+Worms,EDR,78.64954218
+Worms,Euclidean,62.88924389
+Worms,Gaussian Kernel,63.79408594
+Worms,Kullback Leibler,63.566569
+Worms,Manhattan,61.35116734
+Worms,MSM,77.76878399
+Worms,Sigmoid Kernel,61.51237508
+Worms,Wasserstein,66.14847731
+WormsTwoClass,Autocorrelation,59.05647383
+WormsTwoClass,Chebyshev,53.44352617
+WormsTwoClass,Cosine,52.54820937
+WormsTwoClass,DTW,59.74517906
+WormsTwoClass,EDR,67.45867769
+WormsTwoClass,Euclidean,54.71763085
+WormsTwoClass,Gaussian Kernel,55.88842975
+WormsTwoClass,Kullback Leibler,56.64600551
+WormsTwoClass,Manhattan,50.61983471
+WormsTwoClass,MSM,67.3553719
+WormsTwoClass,Sigmoid Kernel,52.61707989
+WormsTwoClass,Wasserstein,58.74655647
+Yoga,Autocorrelation,63.68119377
+Yoga,Chebyshev,69.4646671
+Yoga,Cosine,68.70721284
+Yoga,DTW,70.62742819
+Yoga,EDR,74.73515234
+Yoga,Euclidean,69.88898176
+Yoga,Gaussian Kernel,69.37494388
+Yoga,Kullback Leibler,67.11513385
+Yoga,Manhattan,70.38450319
+Yoga,MSM,75.52338544
+Yoga,Sigmoid Kernel,67.76655971
+Yoga,Wasserstein,69.06838397
