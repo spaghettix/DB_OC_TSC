@@ -16,6 +16,7 @@ __email__ = 'mauceri.stefano@gmail.com'
 import numba
 import numpy as np
 from scipy.stats import entropy
+from scipy.spatial.distance import cdist
 from statsmodels.tsa.stattools import acf
 from scipy.stats import wasserstein_distance as wsd
 from sklearn.metrics.pairwise import rbf_kernel, sigmoid_kernel
@@ -83,7 +84,7 @@ class dissimilarity(object):
         C = np.zeros((length + 1, length + 1))
         C[0, 1:] = np.inf
         C[1:, 0] = np.inf
-        C[1:,1:] = ssd.cdist(a.reshape(-1,1), b.reshape(-1,1), 'euclidean')
+        C[1:,1:] = cdist(a.reshape(-1,1), b.reshape(-1,1), 'euclidean')
         for i in range(1, length+1):
             for j in range(1, length+1):
                 C[i, j] += min(C[i, j - 1], C[i - 1, j - 1], C[i - 1, j])
@@ -136,7 +137,7 @@ class dissimilarity(object):
             D[0,i] = D[0, i-1] + C(b[i], a[0], b[i-1], c_penalty)
         for i in range(1, length_a):
             for j in range(1, length_b):
-                D[i,j] = min(D[i-1,j-1] + np.abs(x[i] - b[j]),
+                D[i,j] = min(D[i-1,j-1] + np.abs(a[i] - b[j]),
                              D[i-1,j] + C(a[i], a[i-1], b[j], c_penalty),
                              D[i, j-1] + C(b[j], a[i], b[j-1], c_penalty))
         return D[length_a-1, length_b-1]
